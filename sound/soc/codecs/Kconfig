@@ -108,6 +108,11 @@ config SND_SOC_ALL_CODECS
 
           If unsure select "N".
 
+config SOUND_CONTROL_HAX_GPL
+	tristate "wcd93xx sound control hax"
+	default y
+	  help
+
 config SND_SOC_88PM860X
 	tristate
 
